@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>SignUp</title>
+</head>
+<body>
+    <nav class="nav-wraper z-depth-1 N/A transparent purple darken-3"style="position: fixed;">
+        <div class="container  purple darken-3 ">
+            <a href="" class="brand-logo">GizoGizo</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">
+                    menu
+                </i>
+            </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="solution.html">Solutions</a></li>
+            <li><a href="singup.html">SingUp</a></li>
+            <li><a class="btn purple">Login</a></li>
+            <li> <a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            
+        </ul>
+        </div> 
+    </nav>
+     <!--Mobiles links -->
+    <ul class="sidenav" id="mobile-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solution.html">Solutions</a></li>
+        <li><a href="singup.html">SingUp</a></li>
+        
+        <li></li>
+    </ul>
+
+    <!--slider-->
+    <div class="container-fluid purple darken-3" style="height: 30vh;">
+        <div class="container center white-text" style="padding-top:5% ;">
+            <h6>Welcome To GizoGizo</h6>
+            <h3>Create An Account</h3>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container" style="padding: 1em;">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <h5>Get A Account</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt perspiciatis architecto itaque odit porro recusandae error aliquid alias ab fuga!</p>
+                    <h5>Download the Free Account</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt perspiciatis architecto itaque odit porro recusandae error aliquid alias ab fuga!</p>
+                    <h5>Push to the platform</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt perspiciatis architecto itaque odit porro recusandae error aliquid alias ab fuga!</p>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card grey lighten-2">
+						<div class="card-content">
+							
+							<div class="input-field">
+								<input type="text" id="name" placeholder="First Name">
+								
+							</div>
+                            <div class="input-field">
+								<input type="text" id="name" placeholder="Last Name">
+								
+							</div>
+
+							<div class="input-field">
+								<input type="email" id="mail" placeholder="Email">
+								
+							</div>
+
+							<div class="input-field">
+								<input type="text" id="phone" placeholder="Password">
+								
+							</div>
+
+							<div class="input-field">
+                                <input type="text" id="phone" placeholder="Company">
+							</div>
+                            <div class="input-field">
+                                
+                                
+                                <select class="browser-default grey lighten-2">
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Professional Developer</option>
+                                  <option value="2">Hoppyist</option>
+                                  <option value="3">Student</option>
+                                  <option value="4">Manager</option>
+                                  <option value="5">Other</option>
+                                </select>
+                                
+                            </div>
+
+							<div class="input-field">
+								<button type="button" class="btn purple" style="width: 100%;">SUBMIT</button>
+							</div>
+						</div>						
+					</div>
+                </div>           
+             </div>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+    <footer class="page-footer purple">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus facilis quasi odit, ab officiis?</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Solution</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">SingUp</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">Term & Condition</a>
+          </div>
+        </div>
+      </footer>
+      <script>
+$(document).ready(function(){
+    $('select').formSelect();
+  });
+        
+
+      </script>
+</body>
+</html>
